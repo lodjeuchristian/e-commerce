@@ -1,0 +1,92 @@
+
+body {
+	background: #f3f2ee url(../img/page.gif) center top fixed repeat-y; 
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+	font-size: 14px !important;
+	line-height: 20px !important;
+	color: #333333 !important;
+ 
+}
+
+h4{
+	color: #0088cc; 
+}
+
+.item img{
+	height:300px;
+	width:80;
+}
+
+html, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
+margin: 0;
+padding: 0;
+border: 0;
+outline: 0; 
+vertical-align: baseline;
+background: transparent;
+}
+
+.divbtn{ 
+	color:000 !important;
+	cursor:pointer; 
+}
+
+.boxAddCart{ 
+}
+
+.divbtn:hover{ 
+	color:#eee;
+	background:#666;
+	cursor:pointer;
+}
+
+.container{
+	width:60% !important; 
+}
+
+.conteneur{
+	margin-top:3%;  
+    border: 1px solid #ccc;  
+    padding:5px;
+    background-color:#fff;
+}
+
+.conteneurwtborder{
+	margin-top:3%;   
+    padding:5px;
+    background-color:#fff;
+}
+
+.conteneurinscription{
+	margin-top:3%;  
+}
+
+.rowformation:hover{
+	cursor:pointer;
+}
+
+
+#filterform{ 
+	margin-top : 15px;
+	padding: 5px;
+	align:center;	
+}
+
+#footer{
+	height:15px;
+	text-align:center; 
+	color:#555; 
+	padding:10px;
+}
+
+.sortheader{
+	font-weight:bold;
+	cursor: pointer;
+}
+
+.sortheader:hover{
+	font-weight:bold;
+	color:#0088cc;
+}
+
+ 

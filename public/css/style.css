@@ -1,0 +1,20 @@
+ 
+input[type="checkbox"],  
+input[type="checkbox"] + label:before { background-position: -25px -25px;}	 	
+input[type="checkbox"]:checked + label:before { background-position: -25px 0;}
+
+	/* Remove the custom styling for IE 7-8 */
+
+.ie8 label:before { display:none; content:none; }
+
+
+.ie8 input[type="checkbox"],
+
+.ie7 input[type="checkbox"]{ 
+	position: static; left:0; }
+
+ 
+.ie8 input[type="checkbox"] { 
+	position:relative; top:5px; margin-right:0.5em;}	
+ 
+ 

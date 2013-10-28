@@ -1,0 +1,157 @@
+.container{
+	width:60% !important;
+	margin-left:20%;
+}
+
+#subscribe, 
+#login{ 
+    top: 0px;
+    width: 92%; 
+    padding: 0px 3% 60px 6%; 
+    border: 1px solid #ccc;  
+}
+
+#login{
+    z-index: 22;
+}
+
+#wrapper h2{
+    font-size: 30px;
+    text-shadow: 1px 1px 0 rgba(255,255,255,.2);
+    padding: 2px 0 10px 0; 
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5px;
+}
+ 
+/* For the moment only webkit supports the background-clip:text; */
+ 
+ 
+ 
+/**** advanced input styling ****/
+/* placeholder */
+::-webkit-input-placeholder  { 
+    color: rgb(190, 188, 188); 
+    font-style: italic;
+}
+input:-moz-placeholder,
+textarea:-moz-placeholder{ 
+    color: rgb(190, 188, 188);
+    font-style: italic;
+} 
+input {
+  outline: none; 
+}
+
+input[type="text"] { 
+  height:18px !important; 
+}
+
+input[type="email"] { 
+  height:18px !important; 
+}
+
+input[type="password"] { 
+  height:18px !important; 
+}
+
+/* all the input except submit and checkbox */
+#wrapper input:not([type="checkbox"]){
+    width: 92%;
+    margin-top: 4px;
+    padding: 10px 5px 10px 32px;    
+    border: 1px solid rgb(178, 178, 178);
+    box-sizing : content-box;
+    border-radius: 3px;
+/*     box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset; */
+    transition: all 0.2s linear;
+}
+#wrapper input:not([type="checkbox"]):active,
+#wrapper input:not([type="checkbox"]):focus{
+    border: 1px solid rgba(91, 90, 90, 0.7);
+    background: rgba(238, 236, 240, 0.2);   
+/*     box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.9) inset; */
+} 
+
+@font-face {
+    font-family: 'FontomasCustomRegular';
+    src: url('fonts/fontomas-webfont.eot');
+    src: url('fonts/fontomas-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/fontomas-webfont.woff') format('woff'),
+         url('fonts/fontomas-webfont.ttf') format('truetype'),
+         url('fonts/fontomas-webfont.svg#FontomasCustomRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+/** the magic icon trick ! **/
+[data-icon]:after {
+    content: attr(data-icon);
+    font-family: 'FontomasCustomRegular';
+    color: rgb(106, 159, 171);
+    position: absolute;
+    left: 10px;
+    top: 35px;
+    width: 30px;
+}
+
+/*styling both submit buttons */
+#wrapper p.button input{
+    width: 30%;
+    cursor: pointer;    
+    background: rgb(61, 157, 179);
+    padding: 8px 5px;
+    font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
+    color: #fff;
+    font-size: 24px;    
+    border: 1px solid rgb(28, 108, 122);    
+    margin-bottom: 2px;    
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    border-radius: 3px;  
+}
+#wrapper p.button input:hover{
+    background: rgb(74, 179, 198);
+}
+#wrapper p.button input:active,
+#wrapper p.button input:focus{
+    background: rgb(40, 137, 154);
+    position: relative;
+    top: 1px;
+    border: 1px solid rgb(12, 76, 87);   
+}
+p.login.button,
+p.signin.button{
+    text-align: center;
+    margin: 2px 0;
+}
+
+/* styling the checkbox "keep me logged in"*/
+ 
+p.change_link{
+    position: absolute;
+    color: rgb(127, 124, 124);
+    left: 0px;
+    height: 20px;
+    width: 440px;
+    padding: 17px 30px 20px 30px;
+    font-size: 16px ;
+    text-align: right;
+    border-top: 1px solid rgb(219, 229, 232);
+    border-radius: 0 0  5px 5px;
+    background: rgb(225, 234, 235);
+    background: repeating-linear-gradient(-45deg, 
+    rgb(247, 247, 247) , 
+    rgb(247, 247, 247) 15px, 
+    rgb(225, 234, 235) 15px, 
+    rgb(225, 234, 235) 30px, 
+    rgb(247, 247, 247) 30px
+    );
+}
+
+ 
+  
+.fondhover:hover{
+	color:  #08c; 
+} 
+
+
